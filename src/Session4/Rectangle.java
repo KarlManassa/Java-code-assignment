@@ -2,7 +2,7 @@ package Session4;
 
 public class Rectangle {
 
-    private double length;
+    protected double length;
     private double width;
     private static int counter;
 
