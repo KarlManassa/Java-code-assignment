@@ -5,9 +5,9 @@ public class Person {
     private String name;
     private String address;
 
-//    public Person() {
-//        System.out.println("I am Person Default Constructor");
-//    }
+    public Person() {
+        System.out.println("I am Person Default Constructor");
+    }
 
     public Person(String name) {
         this.name = name;

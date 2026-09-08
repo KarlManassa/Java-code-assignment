@@ -1,8 +1,11 @@
 package Session6;
 
+import Session4.Rectangle;
+
 public class Square extends Rectangle {
+
     @Override
     public double calculatePerimeter() {
-        return Length * 4;
+        return length * 4;
     }
 }
